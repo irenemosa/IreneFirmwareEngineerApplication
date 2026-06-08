@@ -1,0 +1,51 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <!-- Grid config -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Header -->
+
+        <Label Content="Firmware Engineer Application" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Height="40" Margin="30,10,0,0" VerticalAlignment="Top" Width="205"/>
+        <Label Content="Irene Mollet Sala" Grid.Row="1"  HorizontalAlignment="Left" Height="47" Margin="30,12,0,0" VerticalAlignment="Top" Width="192"/>
+
+
+        <!-- Information -->
+        <Button Content="About me"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,74,0,0" VerticalAlignment="Top" Width="124"/>
+        <Button Content="Education"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,74,0,0" VerticalAlignment="Top" Width="124"/>
+        <Button Content="Work Experience"  Grid.Row="1" HorizontalAlignment="Left" Height="62" Margin="186,263,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_3"/>
+        <Button Content="Why do I want to &#xD;&#xA;work at FliteBoard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,168,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_2"/>
+        <Button Content="Why do I want to &#xA;work at FliteBoard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,263,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_2"/>
+        <Button Content="Thesis"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,168,0,0" VerticalAlignment="Top" Width="124"/>
+
+        <!-- Demos -->
+
+        <Label Content="Demos" Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Left" Height="34" Margin="33,12,0,0" VerticalAlignment="Top" Width="191"/>
+        <ComboBox Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="33,44,0,0" VerticalAlignment="Top" Width="293"/>
+        <Button Content="Play" Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Left" Height="27" Margin="344,44,0,0" VerticalAlignment="Top" Width="61" Click="Button_Click"/>
+        <ListView HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1"  Height="257" Margin="33,83,0,0" VerticalAlignment="Top" Width="372" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
+    </Grid>
+</Window>
