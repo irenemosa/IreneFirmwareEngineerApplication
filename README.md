@@ -95,34 +95,34 @@ Links:
 ### What can I bring to Fliteboard
 ![Screenshot *What can I bring to Fliteboard* page](/Images/AppScreenshots/WhatIBring.png)
 ### Experience:
-_ **Firmware Design and Development**
+- **Firmware Design and Development**
 ![Screenshot *Firmware Design and Development* page](/Images/AppScreenshots/I+D.png)
 
-_ **Embedded Solutions Testing and Validation**
+- **Embedded Solutions Testing and Validation**
 ![Screenshot *Solutions Testing and Validation* page](/Images/AppScreenshots/Testing.png)
-_ **Final Product Validation - EV Charger**
+- **Final Product Validation - EV Charger**
 ![Screenshot *Final Product Validation - EV Charger* page](/Images/AppScreenshots/FinalProduct.png)
-_ **Hardware Debugging - Altium**
+- **Hardware Debugging - Altium**
 ![Screenshot *Software Debugging - Altium* page](/Images/AppScreenshots/SWDebugging.png)
-_ **Hardware Debugging and Diagnostics - Altium**
+- **Hardware Debugging and Diagnostics - Altium**
 ![Screenshot *Debugging and Diagnostics - Altium* page](/Images/AppScreenshots/HWDebugging.png)
-_ **Programming Languages**
+- **Programming Languages**
 ![Screenshot *Programming Languages* page](/Images/AppScreenshots/PL.png)
-_ **Hardware and Software Migration**
+- **Hardware and Software Migration**
 ![Screenshot *Hardware and Software Migration* page](/Images/AppScreenshots/Migration.png)
-_ **Microcontrollers and Embedded Interfaces**
+- **Microcontrollers and Embedded Interfaces**
 ![Screenshot *Microcontrollers and Embedded Interfaces* page](/Images/AppScreenshots/Microcontrollers.png)
-_ **Documentation**
+- **Documentation**
 ![Screenshot *Documentation* page](/Images/AppScreenshots/Documentation.png)
-_ **Version Control and Collaboration**
+- **Version Control and Collaboration**
 ![Screenshot *Version Control and Collaboration* page](/Images/AppScreenshots/Repo.png)
 
 ## Next Versions
-[ ] Make it pretty
-[ ] Implement translation
-[ ] Add code demonstrations
-_ [ ] Bluetooth .c code to scan bluetooth devices
-_ [ ] Think of others
-[ ] Subwindows controls - Must close subwindow (eg. about me) to go back. (Go back button ?)
-[ ] Implement error control
-[ ] Check efficiency 
+- [ ] Make it pretty
+- [ ] Implement translation
+- [ ] Add code demonstrations
+    - [ ] Bluetooth .c code to scan bluetooth devices
+    - [ ] Think of others
+- [ ] Subwindows controls - Must close subwindow (eg. about me) to go back. (Go back button ?)
+- [ ] Implement error control
+- [ ] Check efficiency 
