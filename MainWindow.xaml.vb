@@ -48,7 +48,7 @@ Class MainWindow
                   "Investigation of software-hardware interactions, including LED indicators, communication failures, and timing issues.",
                   "Root cause analysis of firmware and system-level issues."
                   },
-            .ImagePath = "Images\Degugging.png"
+            .ImagePath = "Images\Debugging.png"
         })
         ExperienceItems.Add(New ExperienceItem With {
         .Title = "Hardware Debugging & Diagnostics - Altium",
@@ -58,7 +58,7 @@ Class MainWindow
               "Electrical measurements and I/O diagnostics using digital multimeters.",
               "Hardware investigation, repair, modification, and validation of electronic boards."
               },
-        .ImagePath = "Images\HardwareDb.png"
+        .ImagePath = "Images\HWDebugging.jpeg"
         })
         ExperienceItems.Add(New ExperienceItem With {
         .Title = "Programming Languages",

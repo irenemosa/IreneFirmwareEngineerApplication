@@ -243,5 +243,19 @@
   <ItemGroup>
     <Folder Include="Images\AppScreenshots\" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Debugging.png" />
+    <Resource Include="Images\Documentation.png" />
+    <Resource Include="Images\EVCharger.png" />
+    <Resource Include="Images\Firmware.png" />
+    <Resource Include="Images\GenIO.png" />
+    <Resource Include="Images\Git.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Microcontrollers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\HWDebugging.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
