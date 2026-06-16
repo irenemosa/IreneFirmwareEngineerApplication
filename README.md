@@ -53,20 +53,33 @@ For this project, I selected .NET and Visual Basic because they provide a produc
 ## Installation
 
 ### Option 1 – Run the Executable (recommended)
-        1. Download the latest release.
-        2. Extract the files.
-        3. Run the executable.
-    
-### Option 2 – Run from Source
-        1. Clone the repository.
-        2. Open the solution file in Visual Studio.
-        3. Build the project.
-        4. Run the application.
+
+The executable is available upon request. Due to email security restrictions, it is not uploaded directly to GitHub.
+
+To run the application:
+
+1. Download the executable files provided.
+2. Extract the files (if compressed).
+3. Run `IreneFirmwareEngineerApplication.exe`.
 
 > [!NOTE]
 > Requirements:
->   * Windows 10 or Windows 11
->   * .NET Framework (Option 2)
+>    * have executable zip
+>    * Windows 10 or Windows 11
+>    * 64-bit processor (x64)
+
+### Option 2 – Run from Source
+
+1. Clone this repository.
+2. Open the solution file in Visual Studio.
+3. Build the project.
+4. Run the application.
+
+> [!NOTE]
+> Requirements:
+>    * Windows 10 or Windows 11
+>    * Visual Studio 2022
+>    * .NET Desktop Development workload
 
 ## Application Preview
 
