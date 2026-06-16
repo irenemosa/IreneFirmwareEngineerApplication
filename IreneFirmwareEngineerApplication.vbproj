@@ -238,11 +238,10 @@
     <Resource Include="Images\Image20.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Image21.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\Image22.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Images\AppScreenshots\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

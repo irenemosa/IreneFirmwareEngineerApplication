@@ -20,7 +20,7 @@ Throughout my career, I have worked on embedded systems, communication protocols
 
 ## Why I Built This Application
 
-When I received the opportunity to apply for Fliteboard, I felt that the role aligned surprisingly well with both my professional interests and personal values.
+When I found the Firmware Engineer position at Fliteboard, I felt that the role aligned surprisingly well with both my professional interests and personal values.
 
 Since I started my engineering career, I have always wanted to combine three things that motivate me the most:
 
@@ -49,7 +49,7 @@ For this project, I selected .NET and Visual Basic because they provide a produc
 - Git & GitHub
 - Object-Oriented Programming
 - Data Binding
-
+ 
 ## Installation
 
 ### Option 1 – Run the Executable (recomended)
@@ -65,8 +65,8 @@ For this project, I selected .NET and Visual Basic because they provide a produc
 
 > [!NOTE]
 > Requirements:
->     - Windows 10 or Windows 11
->     - .NET Framework (Option 2)
+>   * Windows 10 or Windows 11
+>   * .NET Framework (Option 2)
 
 ## Application Preview
 

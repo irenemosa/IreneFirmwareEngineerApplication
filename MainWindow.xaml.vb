@@ -14,11 +14,12 @@ Class MainWindow
             .Title = "Firmware Design & Development",
             .Experiences = New List(Of String) From {
                   "Firmware development using C/C++ and Visual Studio.",
+                  "Experience with IDES: VS, Microship Studio, Atmel, STM32 IDE",
                   "Initialization and configuration of microcontrollers and peripherals.",
                   "Development and integration of drivers for communication interfaces and peripherals, including Displays and Bluetooth, among others.",
                   "Participation in the design, implementation, and maintenance of embedded systems."
                   },
-            .ImagePath = "Images\Firmware.png"
+                  .ImagePath = "Images\Firmware.png"
         })
         ExperienceItems.Add(New ExperienceItem With {
             .Title = "Embedded Solutions Testing & Validation - GenIO Tester",
@@ -78,7 +79,7 @@ Class MainWindow
         .Title = "Hardware and Software Migration",
         .Experiences = New List(Of String) From {
             "Supported migration projects caused by component shortages and hardware revisions.",
-            "Adapted firmware to support multiple hardware versions simultaneously.",
+            "Adapted firmware to support multiple hardware versions simultaneously. (conditional code pre-compilation)",
             "Assisted in driver migration and validation of new microcontroller platforms."
             },
         .ImagePath = "Images\Migration.png"
@@ -87,7 +88,7 @@ Class MainWindow
         .Title = "Microcontrollers & Embedded Interfaces",
         .Experiences = New List(Of String) From {
             "Experience configuring and developing applications using GPIO, UART, USART, SPI, and I2C interfaces.",
-            "Experience with STM32 and Atmel microcontrollers.",
+            "Experience with STM32, Microchip, and Atmel microcontrollers.",
             "Familiarity with RTOS-based environments.",
             "Comfortable reading datasheets, technical manuals, and component documentation to implement new functionality."
             },
