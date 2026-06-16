@@ -118,7 +118,8 @@ Links:
 
 ## Next Versions
 - [ ] Make it pretty
-- [ ] Implement translation
+- [ ] Implement translation - to spanish and catalan
+- [ ] Responsive
 - [ ] Add code demonstrations
     - [ ] Bluetooth .c code to scan bluetooth devices
     - [ ] Think of others
