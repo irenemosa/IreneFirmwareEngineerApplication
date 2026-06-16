@@ -101,7 +101,7 @@ Links:
 ![Screenshot *Solutions Testing and Validation* page](/Images/AppScreenshots/Test.PNG)
 - **Final Product Validation - EV Charger**
 ![Screenshot *Final Product Validation - EV Charger* page](/Images/AppScreenshots/EVCharger.PNG)
-- **Hardware Debugging - Altium**
+- **Software Debugging**
 ![Screenshot *Software Debugging - Altium* page](/Images/AppScreenshots/Debugging.PNG)
 - **Hardware Debugging and Diagnostics - Altium**
 ![Screenshot *Debugging and Diagnostics - Altium* page](/Images/AppScreenshots/HWDebugging.PNG)
