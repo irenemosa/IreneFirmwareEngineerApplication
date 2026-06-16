@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen"
+        Title="Firmware Engineer Application - Irene Mollet Sala" Height="700" Width="1200">
     <Grid Margin="0,-4,0,4">
 
         <!-- Grid config -->
@@ -15,7 +17,7 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
@@ -36,17 +38,21 @@
         </TextBlock>
 
         <!-- Information -->
-        <Button Content="About me"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,74,0,0" VerticalAlignment="Top" Width="124" Click="Open_PInfo"/>
-        <Button Content="Education"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,74,0,0" VerticalAlignment="Top" Width="124" Click="Open_Education"/>
-        <Button Content="Projects"  Grid.Row="1" HorizontalAlignment="Left" Height="62" Margin="30,262,0,0" VerticalAlignment="Top" Width="124" Click="Open_WorkExperience"/>
-        <Button Content="Why do I want to &#xD;&#xA;work at FliteBoard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,167,0,0" VerticalAlignment="Top" Width="124" Click="Open_Why"/>
-        <Button Content="What can I bring &#xD;&#xA;to Fliteboard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,262,0,0" VerticalAlignment="Top" Width="124" Click="Open_WhatIBring"/>
-        <Button Content="Thesis"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,167,0,0" VerticalAlignment="Top" Width="124" Click="Open_Thesis"/>
+        <WrapPanel Grid.Row="1"
+           Margin="20,70,20,20">
 
+            <Button Content="About me" Width="120" Height="60" Margin="5" Click="Open_PInfo"/>
+            <Button Content="Education" Width="120" Height="60" Margin="5" Click="Open_Education"/>
+            <Button Content="Thesis" Width="120" Height="60" Margin="5" Click="Open_Thesis"/>
+            <Button Content="Why do I want to &#xD;&#xA;work at Fliteboard" Width="120" Height="60" Margin="5" Click="Open_Why"/>
+            <Button Content="Projects" Width="120" Height="60" Margin="5" Click="Open_WorkExperience"/> 
+            <Button Content="What can I bring &#xD;&#xA;to Fliteboard" Width="120" Height="60" Margin="5" Click="Open_WhatIBring "/>
+
+        </WrapPanel>
         <!-- Experience -->
         <TextBlock Text="Experience" Grid.Column="1"  HorizontalAlignment="Left" Margin="34,18,0,0" VerticalAlignment="Top" Grid.Row="1"/>
 
-        <ComboBox Grid.Column="1" x:Name="ComboBox_experience" HorizontalAlignment="Left" Height="26" Margin="34,40,0,0" VerticalAlignment="Top" Width="372" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1">
+        <ComboBox Grid.Column="1" x:Name="ComboBox_experience" Margin="20,40,20,0" HorizontalAlignment="Stretch" Height="26" VerticalAlignment="Top" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1">
             <ComboBoxItem Content="Firmware Design and Development"/>
             <ComboBoxItem Content="Embedded Solutions Testing and Validation"/>
             <ComboBoxItem Content="Final Product Validation - EV Charger"/>
@@ -64,10 +70,10 @@
         </ComboBox>
 
         <!-- Demos -->
-        <ListView  x:Name="lstDemoOutput" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1"  Height="326" Margin="33,74,0,0" VerticalAlignment="Top" Width="372" d:ItemsSource="{d:SampleData ItemCount=5}">
+        <ListView  x:Name="lstDemoOutput" HorizontalAlignment="Stretch" Grid.Row="1" Grid.Column="1" Margin="20,74,20,20" VerticalAlignment="Top" d:ItemsSource="{d:SampleData ItemCount=5}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <Border Padding="10" Height="302" Width="346">
+                    <Border Padding="10" >
                         <StackPanel>
 
                             <TextBlock Text="{Binding Title}"
@@ -79,17 +85,16 @@
                                 <ListBox.ItemTemplate>
                                     <DataTemplate>
                                         <TextBlock Text="{Binding StringFormat=- {0}}"
-                                            TextWrapping="Wrap"
-                                            Width="300"/>
+                                            TextWrapping="Wrap"/>
                                     </DataTemplate>
                                 </ListBox.ItemTemplate>
 
                             </ListBox>
 
                             <Image Source="{Binding ImagePath}"
-                                Height="128"
+                                MaxHeight="400"
                                 Stretch="Uniform"
-                                Width="226"/>
+                                HorizontalAlignment="Center"/>
                         </StackPanel>
                     </Border>
                 </DataTemplate>

@@ -113,7 +113,12 @@ Class MainWindow
             },
         .ImagePath = "Images\Git.png"
         })
-        'lstDemoOutput.ItemsSource = ExperienceItems
+
+        ComboBox_experience.SelectedIndex = 0
+
+        'lstDemoOutput.ItemsSource = New List(Of ExperienceItem) From {
+        '        ExperienceItems(0)
+        '    }
 
     End Sub
 
@@ -163,9 +168,6 @@ Class MainWindow
             Dim index As Integer = ComboBox_experience.SelectedIndex
 
             If index >= 0 Then
-
-                lstDemoOutput.ItemsSource = Nothing
-
                 lstDemoOutput.ItemsSource =
             New List(Of ExperienceItem) From {
                 ExperienceItems(index)
