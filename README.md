@@ -72,50 +72,50 @@ For this project, I selected .NET and Visual Basic because they provide a produc
 
 If you are unable to run the application, the screenshots below provide an overview of its functionality.
 ### Main page
-![Screenshot *Main* page app](/Images/AppScreenshots/MainPage.png)
+![Screenshot *Main* page app](/Images/AppScreenshots/MainApp.PNG)
 ### About me
-![Screenshot *About Me* page](/Images/AppScreenshots/AboutMe.png)
+![Screenshot *About Me* page](/Images/AppScreenshots/PInfo.PNG)
 Links:
 - [Visit my linked in!.](https://www.linkedin.com/in/irenemollet/)
 ### Education
-![Screenshot *Education* page](/Images/AppScreenshots/Education.png)
+![Screenshot *Education* page](/Images/AppScreenshots/Education.PNG)
 Links:
 - [Bacheloor's degree in ICT systems engineering - UPC](https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem)
 - [Certificate IV in Cybersecurity - TAFE](https://tafeqld.edu.au/course/18/18451/certificate-iv-in-cyber-security)
 ### Thesis
-![Screenshot *Thesis* page](/Images/AppScreenshots/Thesis.png)
+![Screenshot *Thesis* page](/Images/AppScreenshots/Thesis.PNG)
 Links:
 - [Thesis first award](https://epsem.upc.edu/ca/escola/memories/memoria-curs-2022-2023/premis-1) 
 - [Thesis documentation](https://upcommons.upc.edu/server/api/core/bitstreams/e80526f2-edbd-4b04-aecd-3f59c19d57a5/content) - Check my code ;)
 - [Thesis video demonstration](https://youtu.be/55Py0ZfdEn8)
 ### Projects
-![Screenshot *Projects* page](/Images/AppScreenshots/Projects.png)
+![Screenshot *Projects* page](/Images/AppScreenshots/Projects.PNG)
 ### Why do I want to work at Fliteboard
-![Screenshot *Why do I want to work at Fliteboard* page](/Images/AppScreenshots/WhyIWant.png)
+![Screenshot *Why do I want to work at Fliteboard* page](/Images/AppScreenshots/Why.PNG)
 ### What can I bring to Fliteboard
-![Screenshot *What can I bring to Fliteboard* page](/Images/AppScreenshots/WhatIBring.png)
+![Screenshot *What can I bring to Fliteboard* page](/Images/AppScreenshots/WhatDoIBring.PNG)
 ### Experience:
 - **Firmware Design and Development**
-![Screenshot *Firmware Design and Development* page](/Images/AppScreenshots/I+D.png)
+![Screenshot *Firmware Design and Development* page](/Images/AppScreenshots/Firmware.PNG)
 
 - **Embedded Solutions Testing and Validation**
-![Screenshot *Solutions Testing and Validation* page](/Images/AppScreenshots/Testing.png)
+![Screenshot *Solutions Testing and Validation* page](/Images/AppScreenshots/Test.PNG)
 - **Final Product Validation - EV Charger**
-![Screenshot *Final Product Validation - EV Charger* page](/Images/AppScreenshots/FinalProduct.png)
+![Screenshot *Final Product Validation - EV Charger* page](/Images/AppScreenshots/EVCharger.PNG)
 - **Hardware Debugging - Altium**
-![Screenshot *Software Debugging - Altium* page](/Images/AppScreenshots/SWDebugging.png)
+![Screenshot *Software Debugging - Altium* page](/Images/AppScreenshots/Debugging.PNG)
 - **Hardware Debugging and Diagnostics - Altium**
-![Screenshot *Debugging and Diagnostics - Altium* page](/Images/AppScreenshots/HWDebugging.png)
+![Screenshot *Debugging and Diagnostics - Altium* page](/Images/AppScreenshots/HWDebugging.PNG)
 - **Programming Languages**
-![Screenshot *Programming Languages* page](/Images/AppScreenshots/PL.png)
+![Screenshot *Programming Languages* page](/Images/AppScreenshots/PL.PNG)
 - **Hardware and Software Migration**
-![Screenshot *Hardware and Software Migration* page](/Images/AppScreenshots/Migration.png)
+![Screenshot *Hardware and Software Migration* page](/Images/AppScreenshots/Migration.PNG)
 - **Microcontrollers and Embedded Interfaces**
-![Screenshot *Microcontrollers and Embedded Interfaces* page](/Images/AppScreenshots/Microcontrollers.png)
+![Screenshot *Microcontrollers and Embedded Interfaces* page](/Images/AppScreenshots/Microcontrollers.PNG)
 - **Documentation**
-![Screenshot *Documentation* page](/Images/AppScreenshots/Documentation.png)
+![Screenshot *Documentation* page](/Images/AppScreenshots/Documentation.PNG)
 - **Version Control and Collaboration**
-![Screenshot *Version Control and Collaboration* page](/Images/AppScreenshots/Repo.png)
+![Screenshot *Version Control and Collaboration* page](/Images/AppScreenshots/Repo.PNG)
 
 ## Next Versions
 - [ ] Make it pretty

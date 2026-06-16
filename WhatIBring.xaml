@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
         mc:Ignorable="d"
-        Title="WhatIBring" Height="450" Width="800">
+        Title="What can I bring to Fliteboard" Height="450" Width="800">
     <Grid>
         <TextBox HorizontalAlignment="Left" Height="250" Margin="78,67,0,0" TextWrapping="Wrap" Text="I bring a combination of firmware development, hardware understanding, and testing experience that allows me to see products from multiple perspectives. My background has given me experience not only developing software, but also debugging electronic systems, validating products, and working closely with hardware.&#xD;&#xA;&#xD;&#xA;I am a curious and proactive engineer who enjoys learning, taking ownership of challenges, and continuously improving both products and processes. I value teamwork, open communication, and a positive work environment, and I am always willing to contribute wherever I can add value.&#xD;&#xA;&#xD;&#xA;Most importantly, I bring genuine enthusiasm for the company's mission. I am excited by the opportunity to contribute my technical skills to products that combine innovation, sustainability, and sport-areas that strongly align with my personal interests and value.&#xD;&#xA;" VerticalAlignment="Top" Width="576"/>
         <TextBlock HorizontalAlignment="Left" Height="42" Margin="78,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"><Run Text="What Can I Bring to the Company?"/><LineBreak/><Run/></TextBlock>

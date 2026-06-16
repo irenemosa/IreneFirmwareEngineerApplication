@@ -257,5 +257,8 @@
   <ItemGroup>
     <Resource Include="Images\HWDebugging.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

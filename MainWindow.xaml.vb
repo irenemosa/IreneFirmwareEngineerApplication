@@ -116,10 +116,6 @@ Class MainWindow
 
         ComboBox_experience.SelectedIndex = 0
 
-        'lstDemoOutput.ItemsSource = New List(Of ExperienceItem) From {
-        '        ExperienceItems(0)
-        '    }
-
     End Sub
 
     Private Sub ListBox_SelectionChanged(sender As Object, e As SelectionChangedEventArgs)

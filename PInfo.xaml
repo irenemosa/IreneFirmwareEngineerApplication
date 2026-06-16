@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
         mc:Ignorable="d"
-        Title="PInfo" Height="513" Width="875">
+        Title="Personal Information" Height="513" Width="875">
     <Grid>
         <TextBox HorizontalAlignment="Left" Height="98" Margin="254,220,0,0" TextWrapping="Wrap" Text="I am a strong problem solver with an analytical mindset and the ability to work in fast-paced and high-pressure environments. I am responsible, detail-oriented, and enjoy approaching technical challenges with creativity." VerticalAlignment="Top" Width="202"/>
         <TextBox HorizontalAlignment="Left" Height="58" Margin="32,199,0,0" TextWrapping="Wrap" Text="I value honesty, reliability, and a strong work ethic, always aiming to deliver high-quality results." VerticalAlignment="Top" Width="174" TextChanged="TextBox_TextChanged"/>

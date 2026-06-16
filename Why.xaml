@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
         mc:Ignorable="d"
-        Title="Why" Height="450" Width="800">
+        Title="Why do I want to work at Fliteboard" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Height="33" Margin="30,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"><Run Language="ca-es" Text="Why do I want to be part of your team:"/></TextBlock>
         <TextBox HorizontalAlignment="Left" Height="264" Margin="53,0,0,0" TextWrapping="Wrap" Text="When I was first contacted by a recruiter about this opportunity, my initial reaction was that it almost sounded too perfect to be real. The role seemed to match my background, interests, and career goals so closely that I jokingly thought someone had fed my profile into an AI and generated the ideal job for me.&#xA;&#xA;Since I started my engineering career, I have always wanted to combine my passions and values: creating innovative solutions, contributing to the world of sports, and supporting sustainability. The opportunity to do all three in a single role is something I have rarely come across.&#xA;&#xA;I believe the company's values strongly align with my personality, and the Firmware Engineer position aligns perfectly with my professional aspirations. For me, it represents an exciting opportunity to contribute, continue learning, and grow within an industry that genuinely inspires me." VerticalAlignment="Center" Width="457" TextChanged="TextBox_TextChanged"/>
-        <Image Margin="557,276,38,34" Source="/Images/Image18.png" Stretch="Fill"/>
+        <Image Margin="305,300,290,10" Source="/Images/Image18.png" Stretch="Fill"/>
         <Image Margin="601,31,22,241" Source="/Images/Image19.png" Stretch="Fill"/>
+        <Image Margin="515,234,19,35" Source="/Image1.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
