@@ -88,16 +88,19 @@ If you are unable to run the application, the screenshots below provide an overv
 ![Screenshot *Main* page app](/Images/AppScreenshots/MainApp.PNG)
 ### About me
 ![Screenshot *About Me* page](/Images/AppScreenshots/PInfo.PNG)
-Links:
+
+*Links:*
 - [Visit my LinkedIn!](https://www.linkedin.com/in/irenemollet/)
 ### Education
 ![Screenshot *Education* page](/Images/AppScreenshots/Education.PNG) 
-Links:
+
+*Links:*
 - [Bachelor's degree in ICT systems engineering - UPC](https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem) 
 - [Certificate IV in Cybersecurity - TAFE](https://tafeqld.edu.au/course/18/18451/certificate-iv-in-cyber-security)
 ### Thesis
 ![Screenshot *Thesis* page](/Images/AppScreenshots/Thesis.PNG)
-Links:
+
+*Links:*
 - [Thesis award](https://epsem.upc.edu/ca/escola/memories/memoria-curs-2022-2023/premis-1) - First place for Best Bachelor's Thesis in ICT Systems Engineering in my region.
 - [Thesis documentation](https://upcommons.upc.edu/server/api/core/bitstreams/e80526f2-edbd-4b04-aecd-3f59c19d57a5/content) - Check my solution ;)
 - [Thesis video demonstration](https://youtu.be/55Py0ZfdEn8)
