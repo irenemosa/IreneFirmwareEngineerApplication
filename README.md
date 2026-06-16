@@ -11,9 +11,9 @@ Throughout my career, I have worked on embedded systems, communication protocols
 
 ### Links:
 - [Visit my LinkedIn!](https://www.linkedin.com/in/irenemollet/)
-- [Bachelor's degree program](https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem) - Check what I studied! My bachelor degree was designed specifically for firmware - engineer positions, combining electronics, computer science, telecommunications and software development, among other skills.
-- [Thesis video demonstration](https://youtu.be/55Py0ZfdEn8) - GenIO Tester: Automated Validation Platform for Embedded Electronic Systems
-- [Thesis documentation](https://upcommons.upc.edu/server/api/core/bitstreams/e80526f2-edbd-4b04-aecd-3f59c19d57a5/content) - Check my solution ;)
+- [Bachelor's degree program](https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem) - My bachelor degree was designed specifically for firmware - engineer positions, combining electronics, computer science, telecommunications and software development, among other skills.
+- [Thesis video demonstration](https://youtu.be/55Py0ZfdEn8) - GenIO Tester: Automated Validation Platform for Embedded Electronic Systems.
+- [Thesis documentation](https://upcommons.upc.edu/server/api/core/bitstreams/e80526f2-edbd-4b04-aecd-3f59c19d57a5/content) - Documentation of my solution.
 - [Thesis award](https://epsem.upc.edu/ca/escola/memories/memoria-curs-2022-2023/premis-1) - First place for Best Bachelor's Thesis in ICT Systems Engineering in my region.
 
 
