@@ -40,7 +40,7 @@
         <Button Content="Education"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,74,0,0" VerticalAlignment="Top" Width="124" Click="Open_Education"/>
         <Button Content="Projects"  Grid.Row="1" HorizontalAlignment="Left" Height="62" Margin="30,262,0,0" VerticalAlignment="Top" Width="124" Click="Open_WorkExperience"/>
         <Button Content="Why do I want to &#xD;&#xA;work at FliteBoard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,167,0,0" VerticalAlignment="Top" Width="124" Click="Open_Why"/>
-        <Button Content="Pros and Cons &#xA;of hiring me"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,262,0,0" VerticalAlignment="Top" Width="124" Click="Open_WhatIBring"/>
+        <Button Content="What can I bring &#xD;&#xA;to Fliteboard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,262,0,0" VerticalAlignment="Top" Width="124" Click="Open_WhatIBring"/>
         <Button Content="Thesis"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,167,0,0" VerticalAlignment="Top" Width="124" Click="Open_Thesis"/>
 
         <!-- Experience -->
@@ -50,7 +50,7 @@
             <ComboBoxItem Content="Firmware Design and Development"/>
             <ComboBoxItem Content="Embedded Solutions Testing and Validation"/>
             <ComboBoxItem Content="Final Product Validation - EV Charger"/>
-            <ComboBoxItem Content="Hardware Debugging - Altium"/>
+            <ComboBoxItem Content="Software Debugging"/>
             <ComboBoxItem Content="Hardware Debugging and Diagnostics - Altium"/>
 
             <ComboBoxItem Content="Programming Languages"/>
