@@ -10,7 +10,7 @@ Throughout my career, I have worked on embedded systems, communication protocols
 
 
 ### Links:
-- [Visit my linked in!.](https://www.linkedin.com/in/irenemollet/)
+- [Visit my linked in!](https://www.linkedin.com/in/irenemollet/)
 - [Bacheloor's degree program](https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem) - Check what I studied! My bacheloor degree was designed specifically for firmware - engineer positions, combining electronics, computer science, telecomunications and software development, among other skills.
 - [Thesis video demonstration](https://youtu.be/55Py0ZfdEn8) - GenIO Tester: Automated Validation Platform for Embedded Electronic Systems
 - [Thesis documentation](https://upcommons.upc.edu/server/api/core/bitstreams/e80526f2-edbd-4b04-aecd-3f59c19d57a5/content) - Check my code ;)
@@ -76,20 +76,20 @@ If you are unable to run the application, the screenshots below provide an overv
 ### About me
 ![Screenshot *About Me* page](/Images/AppScreenshots/PInfo.PNG)
 Links:
-- [Visit my linked in!.](https://www.linkedin.com/in/irenemollet/)
+- [Visit my linked in!](https://www.linkedin.com/in/irenemollet/)
 ### Education
-![Screenshot *Education* page](/Images/AppScreenshots/Education.PNG)
+![Screenshot *Education* page](/Images/AppScreenshots/Education.PNG) 
 Links:
-- [Bacheloor's degree in ICT systems engineering - UPC](https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem)
+- [Bacheloor's degree in ICT systems engineering - UPC](https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem) 
 - [Certificate IV in Cybersecurity - TAFE](https://tafeqld.edu.au/course/18/18451/certificate-iv-in-cyber-security)
 ### Thesis
 ![Screenshot *Thesis* page](/Images/AppScreenshots/Thesis.PNG)
 Links:
-- [Thesis first award](https://epsem.upc.edu/ca/escola/memories/memoria-curs-2022-2023/premis-1) 
-- [Thesis documentation](https://upcommons.upc.edu/server/api/core/bitstreams/e80526f2-edbd-4b04-aecd-3f59c19d57a5/content) - Check my code ;)
+- [Thesis award](https://epsem.upc.edu/ca/escola/memories/memoria-curs-2022-2023/premis-1) - First place for Best Bachelor's Thesis in ICT Systems Engineering in my region.
+- [Thesis documentation](https://upcommons.upc.edu/server/api/core/bitstreams/e80526f2-edbd-4b04-aecd-3f59c19d57a5/content) - Check my solution ;)
 - [Thesis video demonstration](https://youtu.be/55Py0ZfdEn8)
 ### Projects
-![Screenshot *Projects* page](/Images/AppScreenshots/Projects.PNG)
+![Screenshot *Projects* page](/Images/AppScreenshots/Experience.PNG)
 ### Why do I want to work at Fliteboard
 ![Screenshot *Why do I want to work at Fliteboard* page](/Images/AppScreenshots/Why.PNG)
 ### What can I bring to Fliteboard
@@ -97,7 +97,6 @@ Links:
 ### Experience:
 - **Firmware Design and Development**
 ![Screenshot *Firmware Design and Development* page](/Images/AppScreenshots/Firmware.PNG)
-
 - **Embedded Solutions Testing and Validation**
 ![Screenshot *Solutions Testing and Validation* page](/Images/AppScreenshots/Test.PNG)
 - **Final Product Validation - EV Charger**

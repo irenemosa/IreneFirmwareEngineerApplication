@@ -240,9 +240,7 @@
   <ItemGroup>
     <Resource Include="Images\Image22.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\AppScreenshots\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Images\Debugging.png" />
     <Resource Include="Images\Documentation.png" />
@@ -259,6 +257,25 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AppScreenshots\Debugging.PNG" />
+    <Resource Include="Images\AppScreenshots\Documentation.PNG" />
+    <Resource Include="Images\AppScreenshots\Education.PNG" />
+    <Resource Include="Images\AppScreenshots\EVCharger.PNG" />
+    <Resource Include="Images\AppScreenshots\Experience.PNG" />
+    <Resource Include="Images\AppScreenshots\Firmware.PNG" />
+    <Resource Include="Images\AppScreenshots\HWDebugging.PNG" />
+    <Resource Include="Images\AppScreenshots\MainApp.PNG" />
+    <Resource Include="Images\AppScreenshots\Microcontrollers.PNG" />
+    <Resource Include="Images\AppScreenshots\Migration.PNG" />
+    <Resource Include="Images\AppScreenshots\PInfo.PNG" />
+    <Resource Include="Images\AppScreenshots\PL.PNG" />
+    <Resource Include="Images\AppScreenshots\Repo.PNG" />
+    <Resource Include="Images\AppScreenshots\Test.PNG" />
+    <Resource Include="Images\AppScreenshots\Thesis.PNG" />
+    <Resource Include="Images\AppScreenshots\WhatDoIBring.PNG" />
+    <Resource Include="Images\AppScreenshots\Why.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
