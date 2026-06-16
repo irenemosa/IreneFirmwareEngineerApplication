@@ -1,0 +1,57 @@
+﻿<Window x:Class="Education"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
+        mc:Ignorable="d"
+        Title="Education" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="450"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+            
+        <!-- Bacheloor degree -->
+        <TextBox Grid.Column="0" Text="Bachelor's degree in ICT Systems Engineering - EPSEM (Barcelona, Spain)" HorizontalAlignment="Left" Margin="56,26,0,0" VerticalAlignment="Top"/>
+        <StackPanel Grid.Column="0" Margin="60,44,0,0">
+
+            <TextBlock Margin="0,0,0,10">
+        <Hyperlink NavigateUri="https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem"
+                   RequestNavigate="Hyperlink_RequestNavigate">
+            Bachelor's Degree in ICT Systems Engineering - EPSEM (Barcelona, Spain)
+        </Hyperlink>
+            </TextBlock>
+
+  
+
+        </StackPanel>
+
+
+
+
+
+            <!-- Bacheloor degree -->
+        <TextBox Grid.Column="1" Text="Certificate IV in Cybersecurity - TAFE" HorizontalAlignment="Left" Margin="56,26,0,0" VerticalAlignment="Top"/>
+        <StackPanel Grid.Column="1" Margin="60,44,0,0">
+
+
+            <TextBlock Margin="0,0,0,10">
+    <Hyperlink NavigateUri="https://www.upc.edu/en/bachelors/ict-systems-engineering-manresa-epsem" RequestNavigate="Hyperlink_RequestNavigate">
+    Certificate IV in Cybersecurity - TAFE
+    </Hyperlink>
+        </TextBlock>
+        </StackPanel>
+
+
+        <TextBox HorizontalAlignment="Left" Height="204" Margin="91,217,0,0" TextWrapping="Wrap" Text="- Computer architecture and computing systems&#xA;- Low-level and object-oriented programming&#xA;- Embedded systems and microcontroller programming&#xA;- Digital and analog electronics&#xA;- Operating systems and real-time systems&#xA;- Hardware/software co-design and integration&#xA;- Communication networks and telecommunications&#xA;- Communication protocols and data transmission&#xA;- Signal processing&#xA;- Software testing, validation, and debugging&#xA;- Databases and information systems&#xA;- Engineering project development and technical documentation&#xD;&#xA;- Network structure" VerticalAlignment="Top" Width="341"/>
+        <TextBox HorizontalAlignment="Center" Height="107" Margin="0,69,0,0" TextWrapping="Wrap" Text="I chose this degree because I have always been a creative person who enjoys turning ideas into tangible solutions, and, since I was young, I was fascinated by the idea of inventing and building things that solve real-world problems. &#xD;&#xA;I ended up becoming a Firmware engineer and I couldn't be happier about it.&#xD;&#xA;" VerticalAlignment="Top" Width="414"/>
+        <TextBox Text="Some of what I learned:" HorizontalAlignment="Left" Height="23" Margin="91,194,0,0" VerticalAlignment="Top" Width="134"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="107" Margin="0,69,0,0" TextWrapping="Wrap" Text="After three years working as an engineer, I realized that cybersecurity was becoming an essential skill and one that complemented my technical background very well. For that reason, I decided to move to Australia to improve my English and complete a Certificate IV in Cyber Security.&#xD;&#xA;" VerticalAlignment="Top" Width="308"/>
+        <TextBox Text="Some of what I learned:" HorizontalAlignment="Left" Height="23" Margin="35,212,0,0" VerticalAlignment="Top" Width="134" Grid.Column="1"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Height="160" Margin="0,240,0,0" TextWrapping="Wrap" Text="- Network security&#xD;&#xA;- Cybersecurity legislation, policies, and compliance&#xD;&#xA;- Risk assessment and security best practices&#xD;&#xA;- Technical documentation and reporting&#xD;&#xA;- Defensive security tools and monitoring&#xD;&#xA;- Offensive security tools and vulnerability assessment&#xD;&#xA;- Virtualization technologies&#xD;&#xA;- Cloud computing fundamentals&#xD;&#xA;- Incident response and security operations&#xD;&#xA;- Cybersecurity project planning and implementation" VerticalAlignment="Top" Width="280"/>
+
+
+    </Grid>
+</Window>

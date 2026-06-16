@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,-4,0,4">
 
         <!-- Grid config -->
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="25"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
@@ -21,30 +21,81 @@
 
         <!-- Header -->
 
-        <Label Content="Firmware Engineer Application" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Height="40" Margin="30,10,0,0" VerticalAlignment="Top" Width="205"/>
-        <Label Content="Irene Mollet Sala" Grid.Row="1"  HorizontalAlignment="Left" Height="47" Margin="30,12,0,0" VerticalAlignment="Top" Width="192"/>
+        <TextBlock Text="Firmware Engineer Application" Grid.Column="0" HorizontalAlignment="Left"  Margin="10,0,0,0" VerticalAlignment="Center"/>
+        <TextBlock Text="Irene Mollet Sala" Grid.Row="1"  HorizontalAlignment="Left" Height="17" Margin="30,10,0,0" VerticalAlignment="Top" Width="90"/>
 
+        <TextBlock Grid.Row="1"
+           Grid.ColumnSpan="2"
+           Margin="30,25,0,0">
+
+    <Hyperlink NavigateUri="https://www.linkedin.com/in/irenemollet/"
+               RequestNavigate="Hyperlink_RequestNavigate">
+        Visit my LinkedIn!
+    </Hyperlink>
+
+        </TextBlock>
 
         <!-- Information -->
-        <Button Content="About me"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,74,0,0" VerticalAlignment="Top" Width="124"/>
-        <Button Content="Education"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,74,0,0" VerticalAlignment="Top" Width="124"/>
-        <Button Content="Work Experience"  Grid.Row="1" HorizontalAlignment="Left" Height="62" Margin="186,263,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_3"/>
-        <Button Content="Why do I want to &#xD;&#xA;work at FliteBoard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,168,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_2"/>
-        <Button Content="Why do I want to &#xA;work at FliteBoard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,263,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click_2"/>
-        <Button Content="Thesis"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,168,0,0" VerticalAlignment="Top" Width="124"/>
+        <Button Content="About me"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,74,0,0" VerticalAlignment="Top" Width="124" Click="Open_PInfo"/>
+        <Button Content="Education"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,74,0,0" VerticalAlignment="Top" Width="124" Click="Open_Education"/>
+        <Button Content="Projects"  Grid.Row="1" HorizontalAlignment="Left" Height="62" Margin="30,262,0,0" VerticalAlignment="Top" Width="124" Click="Open_WorkExperience"/>
+        <Button Content="Why do I want to &#xD;&#xA;work at FliteBoard"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,167,0,0" VerticalAlignment="Top" Width="124" Click="Open_Why"/>
+        <Button Content="Pros and Cons &#xA;of hiring me"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="186,262,0,0" VerticalAlignment="Top" Width="124" Click="Open_WhatIBring"/>
+        <Button Content="Thesis"  Grid.Row="1" HorizontalAlignment="Left" Height="61" Margin="30,167,0,0" VerticalAlignment="Top" Width="124" Click="Open_Thesis"/>
+
+        <!-- Experience -->
+        <TextBlock Text="Experience" Grid.Column="1"  HorizontalAlignment="Left" Margin="34,18,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+
+        <ComboBox Grid.Column="1" x:Name="ComboBox_experience" HorizontalAlignment="Left" Height="26" Margin="34,40,0,0" VerticalAlignment="Top" Width="372" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="1">
+            <ComboBoxItem Content="Firmware Design and Development"/>
+            <ComboBoxItem Content="Embedded Solutions Testing and Validation"/>
+            <ComboBoxItem Content="Final Product Validation - EV Charger"/>
+            <ComboBoxItem Content="Hardware Debugging - Altium"/>
+            <ComboBoxItem Content="Hardware Debugging and Diagnostics - Altium"/>
+
+            <ComboBoxItem Content="Programming Languages"/>
+
+            <ComboBoxItem Content="Hardware and Software Migration"/>
+
+            <ComboBoxItem Content="Microcontrollers and Embedded Interfaces"/>
+            <ComboBoxItem Content="Documentation"/>
+            <ComboBoxItem Content="Version Control and Collaboration"/>
+
+        </ComboBox>
 
         <!-- Demos -->
+        <ListView  x:Name="lstDemoOutput" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1"  Height="326" Margin="33,74,0,0" VerticalAlignment="Top" Width="372" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border Padding="10" Height="302" Width="346">
+                        <StackPanel>
 
-        <Label Content="Demos" Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Left" Height="34" Margin="33,12,0,0" VerticalAlignment="Top" Width="191"/>
-        <ComboBox Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="33,44,0,0" VerticalAlignment="Top" Width="293"/>
-        <Button Content="Play" Grid.Row="1" Grid.Column="1"  HorizontalAlignment="Left" Height="27" Margin="344,44,0,0" VerticalAlignment="Top" Width="61" Click="Button_Click"/>
-        <ListView HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1"  Height="257" Margin="33,83,0,0" VerticalAlignment="Top" Width="372" d:ItemsSource="{d:SampleData ItemCount=5}">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
-                </GridView>
-            </ListView.View>
+                            <TextBlock Text="{Binding Title}"
+                               FontWeight="Bold"
+                               FontSize="16"/>
+
+                            <ListBox ItemsSource="{Binding Experiences}"
+                                HorizontalContentAlignment="Stretch">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding StringFormat=- {0}}"
+                                            TextWrapping="Wrap"
+                                            Width="300"/>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+
+                            </ListBox>
+
+                            <Image Source="{Binding ImagePath}"
+                                Height="128"
+                                Stretch="Uniform"
+                                Width="226"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
+
 
 
     </Grid>

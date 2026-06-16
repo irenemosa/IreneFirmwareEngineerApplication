@@ -68,6 +68,33 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Education.xaml.vb">
+      <DependentUpon>Education.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Experience.xaml.vb">
+      <DependentUpon>Experience.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ExperienceItem.vb" />
+    <Compile Include="PInfo.xaml.vb">
+      <DependentUpon>PInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Thesis.xaml.vb">
+      <DependentUpon>Thesis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WhatIBring.xaml.vb">
+      <DependentUpon>WhatIBring.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Why.xaml.vb">
+      <DependentUpon>Why.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Education.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Experience.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -80,6 +107,22 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="PInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Thesis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WhatIBring.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Why.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Import Include="System.Threading.Tasks" />
@@ -131,5 +174,75 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\WhatsApp Image 2026-06-09 at 12.54.55 PM %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Image22.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -1,0 +1,32 @@
+﻿<Window x:Class="PInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
+        mc:Ignorable="d"
+        Title="PInfo" Height="513" Width="875">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="98" Margin="254,220,0,0" TextWrapping="Wrap" Text="I am a strong problem solver with an analytical mindset and the ability to work in fast-paced and high-pressure environments. I am responsible, detail-oriented, and enjoy approaching technical challenges with creativity." VerticalAlignment="Top" Width="202"/>
+        <TextBox HorizontalAlignment="Left" Height="58" Margin="32,199,0,0" TextWrapping="Wrap" Text="I value honesty, reliability, and a strong work ethic, always aiming to deliver high-quality results." VerticalAlignment="Top" Width="174" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="110" Margin="448,153,0,0" TextWrapping="Wrap" Text="I am passionate about sports and overall wellbeing. In my free time, I enjoy reading, painting, crafts, and other creative activities, as well as spending time in nature. I also value being outdoors and getting plenty of sunshine." VerticalAlignment="Top" Width="192"/>
+        <TextBox HorizontalAlignment="Left" Height="133" Margin="554,288,0,0" TextWrapping="Wrap" Text="I thrive in collaborative and positive team environments with open communication. I look for workplaces that support both personal and professional growth while maintaining a good team culture." VerticalAlignment="Top" Width="274"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="253,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"><Run Language="ca-es" Text="Skills"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="34,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"><Run Language="ca-es" Text="Values"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="438,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"><Run Language="ca-es" Text="Hobbies and Lifestyle"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="555,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"><Run Language="ca-es" Text="Workplace expectations"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="44,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101"><Run Language="ca-es" Text="About me"/></TextBlock>
+        <Image Margin="691,48,31,234" Source="/Images/WhatsApp Image 2026-06-09 at 12.54.55 PM (1).jpeg" Stretch="Fill"/>
+        <Image Margin="570,12,157,348" Source="/Images/Image11.png" Stretch="Fill"/>
+        <Image Margin="43,288,647,17" Source="/Images/Image12.png" Stretch="Fill"/>
+        <Image Margin="314,10,415,369" Source="/Images/Image13.png" Stretch="Fill"/>
+        <Image Margin="270,323,371,17" Source="/Images/Image14.png" Stretch="Fill"/>
+        <Image Margin="704,355,31,10" Source="/Images/Image15.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="627,458,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"><Run Language="ca-es" Text="Team Work!"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="84,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122"><Run Language="ca-es" Text="Attention to detail"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="322,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122"><Run Language="ca-es" Text="Skilled :) (HW fix)"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="723,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"><Run Language="ca-es" Text="Discipline and love in what I do!"/></TextBlock>
+        <Image Margin="125,12,586,318" Source="/Images/Image22.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

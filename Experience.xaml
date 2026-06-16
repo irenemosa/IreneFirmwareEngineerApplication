@@ -1,0 +1,22 @@
+﻿<Window x:Class="Experience"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IreneFirmwareEngineerApplication"
+        mc:Ignorable="d"
+        Title="Projects" Height="480" Width="896">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Margin="605,16,34,283" Source="/Images/Image1.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="320" Margin="61,88,0,0" TextWrapping="Wrap" Text="EV Charger — Assistant Developer&#xA;&#x9;Validation of hardware and software versions prior to release&#xA;&#x9;Software debugging and troubleshooting&#xA;&#x9;Installation and deployment support&#xA;&#xD;&#xA;EFTPOS System — Firmware Developer Assistant&#xA;&#x9;Development and implementation of communication protocols for EFTPOS devices&#xA;&#xD;&#xA;Industrial Weighing Scale for Farms — Firmware Developer Assistant&#xA;&#x9;Development of firmware drivers&#xA;&#x9;Development and integration of LED display functionality&#xA;&#xD;&#xA;HVAC Train System — Firmware Developer Assistant&#xA;&#x9;Development of firmware routines&#xA;&#x9;Implementation and debugging of communication interfaces&#xA;&#xD;&#xA;Automated Test Unit Solution — Hardware and Software Developer (Project Owner)&#xA;&#x9;Design and development of hardware and software components&#xA;&#x9;Automated testing and validation of electronic products&#xA;&#x9;System maintenance and continuous improvement&#xA;&#x9;Ownership and leadership of the project" VerticalAlignment="Top" Width="513" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Projects that I have been involved in:" HorizontalAlignment="Left" Height="54" Margin="61,34,0,0" VerticalAlignment="Top" Width="236" Grid.ColumnSpan="2"/>
+        <Image Grid.ColumnSpan="2" Margin="543,118,206,217" Source="/Images/Image5.png" Stretch="Fill"/>
+        <Image Grid.ColumnSpan="2" Margin="572,272,213,10" Source="/Images/Image6.png" Stretch="Fill"/>
+        <Image Grid.ColumnSpan="2" Margin="690,176,25,10" Source="/Images/Image8.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
